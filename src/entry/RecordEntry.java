@@ -1,3 +1,5 @@
+package entry;
+
 import java.sql.*;
 public class RecordEntry {
     private Connection connection;
