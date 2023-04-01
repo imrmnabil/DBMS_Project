@@ -32,6 +32,14 @@ public class qReaderInfoForm extends JFrame{
             }
         });
 
+        backButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                dispose();
+                mainMenu m = new mainMenu();
+            }
+        });
+
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
     }
